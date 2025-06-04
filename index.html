@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <link rel="stylesheet" href="style.css">
         <script src="script.js" defer></script>
         <title>Word Duel Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     </head>
     <body>
         <h1 class="mhead">Word Game</h1>
-        <p>Select your player to start the game!</p>
+        <p id="message"></p>
         <button id="player1Btn" style="margin-right: 10px;"title="Lexa"class="playerb">Player 1</button>
         <button id="player2Btn"title="Syntax"class="playerb">Player 2</button><br>
-        <p id="message"></p>
+        
         <button id="startBtn" class="startb" disabled>Play Now!</button>
+        <p id="countdown" class="countdown-text"></p>
+        <div class="inputContainer">
+            <input  class="inputField"style="display: none;" id="inputField" type="text" placeholder="Type your Word Here.">
+            <p id="enterHint" class="hint-text" style="display: none;">Press Enter to submit your word</p>
+        </div>
     </body>
 </html>
