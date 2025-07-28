@@ -16,7 +16,7 @@ A fun, browser-based two-player word game where players take turns typing unique
 6. The game runs for **3 rounds**.
 7. At the end, the winner is announced, and the high score is recorded.
 
-> ⚠️ Make sure each player uses a separate browser/tab to simulate two-player mode.
+> Make sure each player uses a separate browser/tab to simulate two-player mode.
 
 ## 📁 Project Structure
 
@@ -42,11 +42,6 @@ A fun, browser-based two-player word game where players take turns typing unique
 
 - The top 5 most recent winners are stored and displayed.
 - High scores are saved using `localStorage`.
-
-## 📷 Screenshots
-
-> _Add screenshots or screen recordings here if you'd like._  
-You can use tools like [Licecap](https://www.cockos.com/licecap/) or the Windows Snipping Tool to capture gameplay.
 
 ## 🚀 How to Run
 
